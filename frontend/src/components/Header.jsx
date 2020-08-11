@@ -36,7 +36,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function Header({ darkMode, darkModeHandler, hello }) {
+export default function Header({ darkMode, darkModeHandler }) {
   const classes = useStyles();
   const user = useSelector((state) => state.users);
   const dispatch = useDispatch();
